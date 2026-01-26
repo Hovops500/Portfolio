@@ -1,0 +1,15 @@
+Setting up cloud based active directory with Azure
+
+Log in to the Azure Portal using your Microsoft account credentials.
+
+Navigate to Azure Active Directory from the portal's menu.
+
+Review and configure your users, groups, and authentication settings under the Azure AD section.
+
+If migrating from on-premises Active Directory, set up Azure AD Connect: Install Azure AD Connect on your on-premises server. Configure Password Hash Synchronization or Pass-Through Authentication to sync user credentials to Azure AD.
+
+If using federated domains, switch them to managed domains in Azure AD by following the appropriate guide.
+
+Break the connection between on-premises AD and Azure AD once all users and devices are migrated.
+
+Decommission your on-premises Active Directory if no longer needed.

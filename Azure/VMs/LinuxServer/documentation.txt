@@ -1,0 +1,23 @@
+Connect to virtual machine
+Create an SSH connection with the VM.
+
+If you're on a Windows machine, open a PowerShell prompt. If you're on a Mac or Linux machine, open a Bash prompt and set read-only permission on the .pem file using chmod 400 ~/Downloads/myKey.pem.
+
+At your prompt, open an SSH connection to your virtual machine. Replace the IP address with the one from your VM, and replace the path to the .pem with the path to where the key file was downloaded.
+
+Console
+ssh -i ~/Downloads/myKey.pem azureuser@10.111.12.123
+ Tip
+
+The SSH key you created can be used the next time your create a VM in Azure. Just select the Use a key stored in Azure for SSH public key source the next time you create a VM. You already have the private key on your computer, so you won't need to download anything.
+
+Install web server
+To see your VM in action, install the NGINX web server. From your SSH session, update your package sources and then install the latest NGINX package.
+
+Ubuntu
+SUSE Linux (SLES)
+Red Hat Enterprise Linux (RHEL)
+Bash
+sudo apt-get -y update
+sudo apt-get -y install nginx
+When done, type exit to leave the SSH session.

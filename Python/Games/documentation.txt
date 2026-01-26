@@ -1,0 +1,9 @@
+Important Considerations
+
+Assets: Ensure you have the images spaceship.png, alien.png, and bullet.png in the same directory.
+
+Collision Detection: The is_collision function uses the distance formula to detect collisions.
+
+Game Loop: The game loop handles events, updates positions, and renders the game.
+
+This code provides a basic structure for a Space Invaders game. You can expand it by adding more features like levels, sound effects, and more complex enemy behaviors.
