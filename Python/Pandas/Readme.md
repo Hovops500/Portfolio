@@ -5,7 +5,7 @@ Pandas is a powerful and flexible open-source data analysis and manipulation too
 
 Key Features
 
-Data Structuress
+Data Structures
 
 Pandas is built around two primary data structures:
 
