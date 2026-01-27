@@ -3,7 +3,7 @@ First, ensure you have Pygame installed
 
 pip install pygame
 
-# Game Setup
+
 # Create a file named space_invaders.py and add the following code:
 
 import pygame
