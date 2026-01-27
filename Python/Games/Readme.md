@@ -1,5 +1,5 @@
 # Install Pygame
-# First, ensure you have Pygame installed
+First, ensure you have Pygame installed
 
 pip install pygame
 
