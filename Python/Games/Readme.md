@@ -27,7 +27,7 @@ player_img = pygame.image.load('spaceship.png')
 player_x = 370
 player_y = 480
 player_x_change = 0
-# Enemy
+## Enemy
 enemy_img = []
 enemy_x = []
 enemy_y = []
@@ -40,14 +40,14 @@ for i in range(num_of_enemies):
    enemy_y.append(random.randint(50, 150))
    enemy_x_change.append(4)
    enemy_y_change.append(40)
-# Bullet
+## Bullet
 bullet_img = pygame.image.load('bullet.png')
 bullet_x = 0
 bullet_y = 480
 bullet_x_change = 0
 bullet_y_change = 10
 bullet_state = "ready"
-# Score
+## Score
 score_value = 0
 font = pygame.font.Font('freesansbold.ttf', 32)
 text_x = 10
