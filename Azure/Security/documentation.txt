@@ -1,36 +1,36 @@
-Azure security overview
+# Azure security overview
 
 Azure Security refers to the comprehensive suite of tools, services, and practices provided by Microsoft Azure to ensure the confidentiality, integrity, and availability of data, applications, and infrastructure hosted on its cloud platform. It empowers organizations to build secure solutions while leveraging Azure's robust infrastructure and customizable security features.
 
 Azure's security capabilities are categorized into six key areas: Operations, Applications, Storage, Networking, Compute, and Identity. These areas provide built-in features and partner solutions to address diverse security needs.
 
-Key Features of Azure Security
+# Key Features of Azure Security
 
-Operations
+# Operations
 
 Azure offers tools like Microsoft Sentinel, a cloud-native SIEM and SOAR solution, and Microsoft Defender for Cloud, which provides security monitoring, threat detection, and policy management. These tools enable proactive threat hunting, attack detection, and streamlined incident response.
 
-Applications
+# Applications
 
 Azure enhances application security with features like the Web Application Firewall (WAF) to protect against common web vulnerabilities, App Service Authentication/Authorization for secure user sign-ins, and layered security architectures for isolating application tiers.
 
-Storage
+# Storage
 
 Azure ensures data security with encryption at rest and in transit, role-based access control (RBAC), and Shared Access Signatures (SAS) for fine-grained access control. Storage Analytics provides detailed logging and metrics for monitoring and diagnosing storage-related issues.
 
-Networking
+# Networking
 
 Azure's networking security includes Network Security Groups (NSGs) for traffic filtering, Azure Firewall for advanced threat protection, and DDoS Protection to mitigate distributed denial-of-service attacks. Azure Private Link ensures secure access to Azure services over private endpoints.
 
-Compute
+# Compute
 
 Azure supports confidential computing, enabling data encryption even during processing. It also integrates with antimalware solutions, Azure Disk Encryption, and Azure Backup to protect virtual machines and their data.
 
-Identity and Access Management
+# Identity and Access Management
 
 Azure provides robust identity management through Microsoft Entra ID (formerly Azure AD), offering features like multi-factor authentication, role-based access control, and privileged identity management. These tools ensure secure access to resources and simplify identity governance.
 
-Benefits of Azure Security
+# Benefits of Azure Security
 
 Azure Security enables organizations to:
 
