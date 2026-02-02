@@ -1,4 +1,4 @@
-Connect to virtual machine
+## Connect to virtual machine
 Create an SSH connection with the VM.
 
 If you're on a Windows machine, open a PowerShell prompt. If you're on a Mac or Linux machine, open a Bash prompt and set read-only permission on the .pem file using chmod 400 ~/Downloads/myKey.pem.
