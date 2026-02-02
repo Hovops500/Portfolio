@@ -1,4 +1,4 @@
-Follow these steps to grant access to another subscription in Azure:
+# Follow these steps to grant access to another subscription in Azure:
 
 Step One: Sign in to the Azure portal.
 
