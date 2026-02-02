@@ -1,4 +1,4 @@
-Best Practices
+# Best Practices
 
 Use parameterized queries to prevent SQL injection.
 
