@@ -1,4 +1,4 @@
-Installing Pandas
+#Installing Pandas
 python --version
 pip install pandas
 
@@ -6,7 +6,7 @@ pip install pandas
 import pandas as pd
 print(pd.__version__)
 
-Using Pandas DataFrame
+## Using Pandas DataFrame
 
 
 A Pandas DataFrame is a two-dimensional, size-mutable, and potentially heterogeneous tabular data structure with labeled axes (rows and columns). It is one of the primary data structures in the Pandas library and is widely used for data manipulation and analysis.
