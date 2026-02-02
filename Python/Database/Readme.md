@@ -1,18 +1,18 @@
-Python Scripting for Databases
+# Python Scripting for Databases
 
 Python provides robust support for interacting with databases, enabling developers to connect, query, and manage data efficiently. Below are the steps to work with popular databases like SQLite, MySQL, and PostgreSQL using Python.
 
-1. SQLite
+# 1. SQLite
 
 SQLite is a lightweight, serverless database that comes pre-installed with Python.
 
 Steps:
 
-Import the sqlite3 module.
+1: Import the sqlite3 module.
 
-Establish a connection to the database (creates a new file if it doesn’t exist).
+2: Establish a connection to the database (creates a new file if it doesn’t exist).
 
-Use a cursor object to execute SQL queries.
+3: Use a cursor object to execute SQL queries.
 
 Example:
 
@@ -41,19 +41,19 @@ print(cursor.fetchall())
 
 connection.close()
 Copy
-2. MySQL
+# 2. MySQL
 
 For MySQL, you need the mysql-connector-python library.
 
 Steps:
 
-Install the library:
+1: Install the library:
 
 pip install mysql-connector-python
 
-Connect to the MySQL server.
+2: Connect to the MySQL server.
 
-Execute queries using a cursor.
+3: Execute queries using a cursor.
 
 Example:
 
@@ -87,19 +87,19 @@ print(cursor.fetchall())
 
 connection.close()
 
-3. PostgreSQL
+# 3. PostgreSQL
 
 For PostgreSQL, use the psycopg2 library.
 
 Steps:
 
-Install the library:
+1: Install the library:
 
 pip install psycopg2
 
-Connect to the PostgreSQL server.
+2: Connect to the PostgreSQL server.
 
-Use a cursor to execute SQL commands.
+3: Use a cursor to execute SQL commands.
 
 Example:
 
