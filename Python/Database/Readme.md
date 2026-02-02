@@ -18,11 +18,11 @@ Example:
 
 import sqlite3
 
-# Connect to SQLite database
+## Connect to SQLite database
 connection = sqlite3.connect("example.db")
 cursor = connection.cursor()
 
-# Create a table
+## Create a table
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS users (
 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -31,11 +31,11 @@ age INTEGER
 )
 """)
 
-# Insert data
+## Insert data
 cursor.execute("INSERT INTO users (name, age) VALUES ('Alice', 30)")
 connection.commit()
 
-# Fetch data
+## Fetch data
 cursor.execute("SELECT * FROM users")
 print(cursor.fetchall())
 
@@ -45,7 +45,7 @@ connection.close()
 
 For MySQL, you need the mysql-connector-python library.
 
-Steps:
+## Steps:
 
 1: Install the library:
 
@@ -55,11 +55,11 @@ pip install mysql-connector-python
 
 3: Execute queries using a cursor.
 
-Example:
+## Example:
 
 import mysql.connector
 
-# Connect to MySQL database
+## Connect to MySQL database
 connection = mysql.connector.connect(
 host="localhost",
 user="root",
@@ -68,7 +68,7 @@ database="test_db"
 )
 cursor = connection.cursor()
 
-# Create a table
+## Create a table
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS users (
 id INT AUTO_INCREMENT PRIMARY KEY,
@@ -77,11 +77,11 @@ age INT
 )
 """)
 
-# Insert data
+## Insert data
 cursor.execute("INSERT INTO users (name, age) VALUES ('Bob', 25)")
 connection.commit()
 
-# Fetch data
+## Fetch data
 cursor.execute("SELECT * FROM users")
 print(cursor.fetchall())
 
@@ -91,7 +91,7 @@ connection.close()
 
 For PostgreSQL, use the psycopg2 library.
 
-Steps:
+## Steps:
 
 1: Install the library:
 
@@ -101,11 +101,11 @@ pip install psycopg2
 
 3: Use a cursor to execute SQL commands.
 
-Example:
+## Example:
 
 import psycopg2
 
-# Connect to PostgreSQL database
+## Connect to PostgreSQL database
 connection = psycopg2.connect(
 dbname="test_db",
 user="postgres",
@@ -114,7 +114,7 @@ host="localhost"
 )
 cursor = connection.cursor()
 
-# Create a table
+## Create a table
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS users (
 id SERIAL PRIMARY KEY,
@@ -123,11 +123,11 @@ age INTEGER
 )
 """)
 
-# Insert data
+## Insert data
 cursor.execute("INSERT INTO users (name, age) VALUES ('Charlie', 35)")
 connection.commit()
 
-# Fetch data
+## Fetch data
 cursor.execute("SELECT * FROM users")
 print(cursor.fetchall())
 
