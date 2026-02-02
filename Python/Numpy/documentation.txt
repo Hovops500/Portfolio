@@ -1,4 +1,4 @@
-Installing Numpy
+# Installing Numpy
 python --version
 pip install numpy
 
