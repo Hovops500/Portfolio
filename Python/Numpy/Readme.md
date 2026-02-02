@@ -1,8 +1,8 @@
-Numpy Library
+# Numpy Library
 
 NumPy is a powerful Python library used for working with arrays and performing numerical computations. It was created in 2005 by Travis Oliphant and is an open-source project that can be freely used. NumPy stands for Numerical Python and is the fundamental package for scientific computing with Python.
 
-Key Features
+# Key Features
 
 Array Object
 
