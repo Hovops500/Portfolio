@@ -1,23 +1,23 @@
 Follow these steps to grant access to another subscription in Azure:
 
-Sign in to the Azure portal.
+Step One: Sign in to the Azure portal.
 
-In the Search bar at the top, type Subscriptions and select it.
+Step Two: In the Search bar at the top, type Subscriptions and select it.
 
-Select the subscription you want to grant access to.
+Step Three: Select the subscription you want to grant access to.
 
-Navigate to Access control (IAM) in the left-hand menu.
+Step Four: Navigate to Access control (IAM) in the left-hand menu.
 
-Click Add and select Add role assignment.
+Step Five: Click Add and select Add role assignment.
 
-In the Role tab, choose the appropriate role (e.g., Owner, Contributor, or Reader) based on the level of access required.
+Step Six: In the Role tab, choose the appropriate role (e.g., Owner, Contributor, or Reader) based on the level of access required.
 
-Click Next to proceed to the Members tab.
+Step Seven: Click Next to proceed to the Members tab.
 
-Select User, group, or service principal and click Select members.
+Step Eight: Select User, group, or service principal and click Select members.
 
-Search for and select the user, group, or service principal from the directory.
+Step Nine: Search for and select the user, group, or service principal from the directory.
 
-Click Next to configure optional conditions (if needed, such as restricting role assignments).
+Step Ten: Click Next to configure optional conditions (if needed, such as restricting role assignments).
 
-Review the settings on the Review + assign tab and click Review + assign to finalize the role assignment.
+Step Eleven: Review the settings on the Review + assign tab and click Review + assign to finalize the role assignment.
