@@ -14,6 +14,8 @@ Azure virtual machines (VMs) can be created through the Azure portal. The Azure 
 
 <b>Step five:</b> In the Basics tab, under Project details, make sure the correct subscription is selected and then choose to Create new resource group. Enter myResourceGroup for the name.
 
+<img src ="images/instance-details.png">
+
 
 
 <b>Step six:</b> Under Instance details, enter myVM for the Virtual machine name. Under Availability options, select No infrastructure redundancy required. Under Security type, select Standard. Choose Ubuntu Server 22.04 LTS - Gen2 for your Image. Leave the other defaults. The default size and pricing is only shown as an example. Size availability and pricing are dependent on your region and subscription.
