@@ -24,4 +24,4 @@ When done, close the RDP connection to the VM.
 # View the IIS welcome page
 In the portal, select the VM and in the overview of the VM, hover over the IP address to show Copy to clipboard. Copy the IP address and paste it into a browser tab. The default IIS welcome page will open, and should look like this:
 
-Screenshot of the IIS default site in a browser
+<img src = "images/default-iis-website.png">
