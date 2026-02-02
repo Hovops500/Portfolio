@@ -1,4 +1,4 @@
-#Installing Pandas
+# Installing Pandas
 python --version
 pip install pandas
 
@@ -6,12 +6,11 @@ pip install pandas
 import pandas as pd
 print(pd.__version__)
 
-## Using Pandas DataFrame
-
+# Using Pandas DataFrame
 
 A Pandas DataFrame is a two-dimensional, size-mutable, and potentially heterogeneous tabular data structure with labeled axes (rows and columns). It is one of the primary data structures in the Pandas library and is widely used for data manipulation and analysis.
 
-Creating a DataFrame
+## Creating a DataFrame
 
 A DataFrame can be created from various data structures such as lists, dictionaries, and numpy arrays. Here are some examples:
 
@@ -24,7 +23,7 @@ data = {'Name': ['Tom', 'Nick', 'Krish', 'Jack'], 'Age': [20, 21, 19, 18]}
 df = pd.DataFrame(data)
 print(df)
 
-Output:
+## Output:
 
 Name Age
 0 Tom 20
@@ -39,7 +38,7 @@ lst = ['Geeks', 'For', 'Geeks', 'is', 'portal', 'for', 'Geeks']
 df = pd.DataFrame(lst)
 print(df)
 
-Output:
+## Output:
 
 0
 0 Geeks
@@ -59,7 +58,7 @@ data = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 df = pd.DataFrame(data, columns=['a', 'b', 'c'])
 print(df)
 
-Output:
+## Output:
 
 a b c
 0 1 2 3
@@ -75,7 +74,7 @@ Using loc
 # Accessing rows using loc
 print(df.loc[0]) # Accessing the first row
 
-Output:
+## Output:
 
 a 1
 b 2
@@ -87,7 +86,7 @@ Using iloc
 # Accessing rows using iloc
 print(df.iloc[1]) # Accessing the second row
 
-Output:
+## Output:
 
 a 4
 b 5
@@ -99,7 +98,7 @@ Direct Indexing
 # Accessing columns directly
 print(df['a']) # Accessing the 'a' column
 
-Output:
+## Output:
 
 0 1
 1 4
