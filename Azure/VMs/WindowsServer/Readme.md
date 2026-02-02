@@ -17,21 +17,26 @@ Sign in to the Azure portal.
 
 <b>Step 4:</b> Under Instance details, enter myVM for the Virtual machine name and choose Windows Server 2022 Datacenter: Azure Edition - x64 Gen 2 for the Image. Leave the other defaults.
 
-
- 
+<img src = "images/instance-details.png">
 
 Note: Some users will now see the option to create VMs in multiple zones. To learn more about this new capability, see Create virtual machines in an availability zone. Screenshot showing that you have the option to create virtual machines in multiple availability zones.
 
 <b>Step 5:</b> Under Administrator account, provide a username, such as azureuser and a password. The password must be at least 12 characters long and meet the defined complexity requirements.
 
+<img src = "images/administrator-account.png">
+
 <b>Step 6:</b> Under Inbound port rules, choose Allow selected ports and then select RDP (3389) and HTTP (80) from the drop-down.
 
-
+<img src = "images/inbound-port-rules.png">
 
 <b>Step 7:</b> Leave the remaining defaults and then select the Review + create button at the bottom of the page.
 
-
+<img src = "images/review-create.png">
 
 <b>Step 8:</b> After validation runs, select the Create button at the bottom of the page. Screenshot showing that validation has passed. Select the Create button to create the VM.
 
+<img src = "images/validation.png">
+
 <b>Step 9:</b> After deployment is complete, select Go to resource.
+
+<img src = "images/portal-quick-start-9.png">
