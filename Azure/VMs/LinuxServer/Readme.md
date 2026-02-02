@@ -3,6 +3,7 @@
 Azure virtual machines (VMs) can be created through the Azure portal. The Azure portal is a browser-based user interface to create Azure resources. This quickstart shows you how to use the Azure portal to deploy a Linux virtual machine (VM) running Ubuntu Server 22.04 LTS. To see your VM in action, you also SSH to the VM and install the NGINX web server.
 
 Step one: Create virtual machine
+
 Step two: Enter virtual machines in the search.
 
 Step three: Under Services, select Virtual machines.
