@@ -4,18 +4,21 @@ First, ensure you have Pygame installed
 pip install pygame
 
 
-# Create a file named space_invaders.py and add the following code:
+## Create a file named space_invaders.py and add the following code:
 
 import pygame
 import random
 import math
-# Initialize Pygame
+
+## Initialize Pygame
 pygame.init()
-# Screen dimensions
+
+## Screen dimensions
 screen_width = 800
 screen_height = 600
 screen = pygame.display.set_mode((screen_width, screen_height))
-# Title and Icon
+
+## Title and Icon
 pygame.display.set_caption("Space Invaders")
 icon = pygame.image.load('spaceship.png')
 pygame.display.set_icon(icon)
@@ -66,7 +69,7 @@ def is_collision(enemy_x, enemy_y, bullet_x, bullet_y):
        return True
    else:
        return False
-# Game Loop
+## Game Loop
 running = True
 while running:
    screen.fill((0, 0, 0))
