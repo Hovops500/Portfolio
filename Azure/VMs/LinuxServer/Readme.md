@@ -12,7 +12,7 @@ Step four: In the Virtual machines page, select Create and then Virtual machine.
 
 Step five: In the Basics tab, under Project details, make sure the correct subscription is selected and then choose to Create new resource group. Enter myResourceGroup for the name.
 
-Screenshot of the Project details section showing where you select the Azure subscription and the resource group for the virtual machine
+
 
 Step six: Under Instance details, enter myVM for the Virtual machine name. Under Availability options, select No infrastructure redundancy required. Under Security type, select Standard. Choose Ubuntu Server 22.04 LTS - Gen2 for your Image. Leave the other defaults. The default size and pricing is only shown as an example. Size availability and pricing are dependent on your region and subscription.
 
@@ -22,7 +22,7 @@ Step eight: In Username enter azureuser.
 
 Step nine: For SSH public key source, leave the default of Generate new key pair, and then enter myKey for the Key pair name.
 
-Screenshot of the Administrator account section where you select an authentication type and provide the administrator credentials
+
 
 Step ten: Under Inbound port rules > Public inbound ports, choose Allow selected ports and then select SSH (22) and HTTP (80) from the drop-down.
 
