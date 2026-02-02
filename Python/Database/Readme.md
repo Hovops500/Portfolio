@@ -40,7 +40,7 @@ cursor.execute("SELECT * FROM users")
 print(cursor.fetchall())
 
 connection.close()
-Copy
+
 # 2. MySQL
 
 For MySQL, you need the mysql-connector-python library.
