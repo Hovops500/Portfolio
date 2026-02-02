@@ -10,6 +10,8 @@ Azure virtual machines (VMs) can be created through the Azure portal. The Azure 
 
 <b>Step four:</b> In the Virtual machines page, select Create and then Virtual machine. The Create a virtual machine page opens.
 
+<img src ="images/project-details.png">
+
 <b>Step five:</b> In the Basics tab, under Project details, make sure the correct subscription is selected and then choose to Create new resource group. Enter myResourceGroup for the name.
 
 
